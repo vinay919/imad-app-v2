@@ -60,7 +60,7 @@ function createTemplate(data){
             </div>
             <hr/>
             <h3>
-                ${data}
+                ${data.title}
             </h3>
             <div>
                 {date}
