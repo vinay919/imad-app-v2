@@ -39,9 +39,9 @@ var articles={
 };
 function createTemplate(data){
     var title=data;
-    var heading=data.heading;
-    var date=data.date;
-    var content=data.content;
+    var heading=data;
+    var date=data;//.date;
+    var content=data;//.content;
     var htmlTemplate=`
     <html>
         <head>
