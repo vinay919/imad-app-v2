@@ -36,10 +36,9 @@ var articles={
                 This is the content for my third article.
             </p>`
 }
-}
+};
 function createTemplate(data){
-    alert(data);
-    var title=data.title;
+    var title=data;
     var heading=data.heading;
     var date=data.date;
     var content=data.content;
