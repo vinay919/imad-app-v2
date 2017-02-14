@@ -27,8 +27,7 @@ button.onclick=function(){
 };
 
 //submit name
-var nameInput=document.getElementById('name');
-var name=nameInput.value;
+
 var submit=document.getElementById('submit_button');
 submit.onclick=function(){
     //create a request to the object
@@ -54,6 +53,8 @@ submit.onclick=function(){
   };
   
   //Make the request
+  var nameInput=document.getElementById('name');
+    var name=nameInput.value;
   request.open('GET','http://vinay919.imad.hasura-app.io/submit-name?name='+name,true);
   request.send(null);
     
